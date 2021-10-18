@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="CeCouchin">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="infraestructura">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="service">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="th">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ti">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="admin">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="gerente">
+      <displayName>gerente</displayName>
+    </role>
+    <role name="subdicrector">
+      <displayName>subdirector</displayName>
+    </role>
+    <role name="coordinador de TI">
+      <displayName>coordinador de TI</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Servicios y Proyectos">
+      <displayName>Servicios y Proyectos TI</displayName>
+    </group>
+    <group name="Talento Humano">
+      <displayName>Talento Humano</displayName>
+    </group>
+    <group name="Service Desk">
+      <displayName>Service Desk</displayName>
+    </group>
+    <group name="Infraestructura">
+      <displayName>Infraestructura</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>infraestructura</userName>
+      <roleName>gerente</roleName>
+      <groupName>Infraestructura</groupName>
+    </membership>
+    <membership>
+      <userName>service</userName>
+      <roleName>gerente</roleName>
+      <groupName>Service Desk</groupName>
+    </membership>
+    <membership>
+      <userName>th</userName>
+      <roleName>gerente</roleName>
+      <groupName>Talento Humano</groupName>
+    </membership>
+    <membership>
+      <userName>ti</userName>
+      <roleName>coordinador de TI</roleName>
+      <groupName>Servicios y Proyectos</groupName>
+    </membership>
+    <membership>
+      <userName>admin</userName>
+      <roleName>gerente</roleName>
+      <groupName>Servicios y Proyectos</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
